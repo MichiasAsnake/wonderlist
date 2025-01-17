@@ -1,7 +1,6 @@
 "use client"
 
 import { motion, AnimatePresence } from "framer-motion"
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -47,7 +46,7 @@ export default function Home() {
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-xl">
               <video
                 className="w-full h-full"
-                src="/Wonder Lister-1080p-240614.mp4"
+                src="/Wonder%20Lister-1080p-240614.mp4"
                 controls={isPlaying}
                 autoPlay={isPlaying}
                 playsInline
